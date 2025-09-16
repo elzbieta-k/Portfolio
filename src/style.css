@@ -834,11 +834,14 @@ footer {
 }
 
 @media (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
   .logo {
     width: 8%;
   }
   .nav-menu-div {
-    width: 30%;
+    width: 37%;
     top: 73px;
   }
 
@@ -887,7 +890,7 @@ footer {
   .project-card-right {
     flex-direction: column-reverse;
     gap: 10px;
-    padding: 20px 0;
+    padding: 20px 10px;
     background-color: var(--white-color);
     width: 70vw;
     border-right: 2px solid var(--secondary-color);
@@ -904,7 +907,7 @@ footer {
     width: 100%;
   }
   .project-info {
-    height: 300px;
+    height: auto;
   }
   .project-description-empty,
   .project-description-empty-right {
@@ -922,11 +925,13 @@ footer {
 
   .project-image {
     width: 90%;
+    height: auto;
   }
 
   .project-card h3,
   .project-card-right h3 {
     color: var(--dark-text-color);
+    text-align: center;
   }
 
   .project-tech {
@@ -934,7 +939,7 @@ footer {
   }
 
   .icons-socials-sticky {
-    width: 70px;
+    width: 40px;
   }
 
   .contact-container {
@@ -955,5 +960,18 @@ footer {
 
   .icons-socials-sticky a {
     font-size: 1.5rem;
+  }
+
+  .contact-div {
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons-socials {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
