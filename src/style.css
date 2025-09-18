@@ -946,6 +946,7 @@ footer {
 
   .project-tech {
     color: var(--dark-text-color);
+    font-size: 1rem;
   }
 
   .icons i {
