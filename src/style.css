@@ -57,6 +57,8 @@ body[data-theme="dark"] {
 
 body {
   background-color: var(--bg-color);
+  /* max-width: 1440px;
+  margin: 0 auto; */
 }
 
 html {
@@ -81,7 +83,7 @@ nav {
 }
 
 .logo {
-  width: 35%;
+  width: 33%;
 }
 
 nav h1 {
@@ -185,7 +187,7 @@ header {
   }
 }
 .hero-div {
-  max-width: 70vw;
+  max-width: 70%;
   height: 90vh;
   display: flex;
   flex-direction: row;
@@ -412,7 +414,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 75px;
+  gap: 90px;
   background-color: var(--section-color);
   position: relative;
 }
@@ -533,6 +535,7 @@ header {
   gap: 25px;
   padding-bottom: 10px;
 }
+
 .icons i {
   font-size: 1.7rem;
   text-shadow: 2px 2px 2px var(--text-color);
@@ -683,13 +686,22 @@ footer {
 }
 
 /* -------------------MEDIA QUERIES ------------------ */
-@media (max-width: 1400px) {
-  html {
-    font-size: 18px;
+@media screen and (min-width: 1600px) {
+  .logo {
+    width: 40%;
   }
 
-  .hero-titles h1 {
-    font-size: 2.8rem;
+  .hero-div,
+  .about-me-desc,
+  .my-skills-div,
+  .project-card,
+  .contact-container {
+    max-width: 1200px;
+  }
+
+  #hero-image img {
+    height: 555px;
+    width: 455px;
   }
 }
 
@@ -708,18 +720,11 @@ footer {
     width: 330px;
   }
 
-  .project-tech {
-    font-size: 1rem;
-  }
   .project-description {
     height: 135px;
   }
   .project-description-empty {
     height: 110px;
-  }
-
-  .project-description-left {
-    height: 135px;
   }
 }
 
@@ -727,10 +732,6 @@ footer {
 @media (max-width: 1070px) {
   html {
     font-size: 15px;
-  }
-
-  .hero-titles h1 {
-    font-size: 2.2rem;
   }
 
   #hero-image img {
@@ -749,7 +750,7 @@ footer {
   html {
     font-size: 15px;
   }
-  .project-card-left,
+
   .project-card {
     width: 80vw;
   }
@@ -945,6 +946,23 @@ footer {
 
   .project-tech {
     color: var(--dark-text-color);
+  }
+
+  .icons i {
+    text-shadow: 2px 2px 2px var(--dark-text-color);
+    animation: colorChangeForMobile 3s ease infinite;
+  }
+
+  @keyframes colorChangeForMobile {
+    0% {
+      color: var(--dark-text-color);
+    }
+    50% {
+      color: var(--secondary-color);
+    }
+    100% {
+      color: var(--dark-text-color);
+    }
   }
 
   .icons-socials-sticky {
