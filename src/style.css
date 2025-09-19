@@ -57,8 +57,6 @@ body[data-theme="dark"] {
 
 body {
   background-color: var(--bg-color);
-  /* max-width: 1440px;
-  margin: 0 auto; */
 }
 
 html {
@@ -195,6 +193,7 @@ header {
   align-items: center;
   margin: 0 auto;
 }
+
 #hero-intro {
   display: flex;
   flex-direction: column;
@@ -228,13 +227,12 @@ header {
 .kontakt-btn,
 .lastCV-btn {
   cursor: pointer;
-  width: 182px;
-  height: 70px;
-  line-height: 70px;
+  width: 9.1rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   text-align: center;
   border-radius: 13px;
   transition: background-color 0.45s ease;
-
   font-size: 1rem;
   text-decoration: none;
 }
@@ -250,20 +248,24 @@ header {
   color: var(--primary-color);
 }
 
-.kontakt-btn:hover {
-  background-color: transparent;
-  border: 3px solid var(--primary-color);
-  color: var(--primary-color);
+@media (hover: hover) and (pointer: fine) {
+  .kontakt-btn:hover {
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+  }
 }
 
-.lastCV-btn:hover {
-  background-color: var(--primary-color);
-  color: var(--light-color);
+@media (hover: hover) and (pointer: fine) {
+  .lastCV-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+  }
 }
 
 #hero-image img {
-  height: 477px;
-  width: 379px;
+  width: clamp(290px, 40vw, 379px);
+  height: clamp(350px, 50vw, 477px);
   object-fit: cover;
   object-position: center;
 }
@@ -280,6 +282,7 @@ header {
     transform: translateY(0);
   }
 }
+
 #about-me {
   display: flex;
   flex-direction: column;
@@ -293,8 +296,8 @@ header {
   transform: translateY(0);
 }
 .about-me-image {
-  height: 455px;
-  width: 363px;
+  width: clamp(200px, 30vw, 363px);
+  height: clamp(350px, 40vw, 455px);
 }
 
 .about-me-image img {
@@ -463,7 +466,7 @@ header {
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
   z-index: 1;
 }
 .project-card h3 {
@@ -715,33 +718,11 @@ footer {
     font-size: 2.7rem;
   }
 
-  #hero-image img {
-    height: 430px;
-    width: 330px;
-  }
-
   .project-description {
     height: 135px;
   }
   .project-description-empty {
     height: 110px;
-  }
-}
-
-/* ---------------------------------- */
-@media (max-width: 1070px) {
-  html {
-    font-size: 15px;
-  }
-
-  #hero-image img {
-    height: 400px;
-    width: 300px;
-  }
-
-  .kontakt-btn,
-  .lastCV-btn {
-    width: 150px;
   }
 }
 
@@ -789,11 +770,6 @@ footer {
     align-items: flex-end;
   }
 
-  .about-me-image {
-    height: 400px;
-    width: 250px;
-  }
-
   nav ul {
     gap: 10px;
   }
@@ -822,21 +798,8 @@ footer {
   }
 }
 
-/* --------------------------- */
-@media (max-width: 850px) {
-  #hero-image img {
-    height: 330px;
-    width: 245px;
-  }
-
-  .project-description p,
-  .project-description-empty p {
-    line-height: 1rem;
-  }
-}
-
 /* ---------------------------- */
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   html {
     font-size: 14px;
   }
@@ -880,22 +843,7 @@ footer {
   p {
     text-align: center;
   }
-  #hero-image img {
-    height: 350px;
-    width: 290px;
-  }
 
-  .about-me-image {
-    height: 350px;
-    width: 200px;
-  }
-
-  .kontakt-btn,
-  .lastCV-btn {
-    width: 130px;
-    height: 50px;
-    line-height: 50px;
-  }
   .project-card,
   .project-card-right {
     flex-direction: column-reverse;
@@ -923,6 +871,7 @@ footer {
   .project-description-empty-right {
     border: none;
     text-align: center;
+    line-height: 1rem;
   }
 
   .project-description-empty {
@@ -970,25 +919,17 @@ footer {
     width: 40px;
   }
 
+  .icons-socials-sticky a {
+    font-size: 1.5rem;
+  }
+
   .contact-container {
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
   }
-
-  .contact-info p {
-    text-align: left;
-  }
-}
-
-/* --------------------------- */
-@media (max-width: 650px) {
   .contact-info {
     align-items: flex-start;
-  }
-
-  .icons-socials-sticky a {
-    font-size: 1.5rem;
   }
 
   .contact-div {
@@ -1000,7 +941,6 @@ footer {
 
   .icons-socials {
     justify-content: center;
-    align-items: center;
     width: 100%;
   }
 }
