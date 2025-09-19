@@ -81,7 +81,7 @@ nav {
 }
 
 .logo {
-  width: 33%;
+  width: 30vw;
 }
 
 nav h1 {
@@ -113,7 +113,7 @@ li a:hover,
 }
 
 .nav-menu-div {
-  width: 70%;
+  width: 70vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -803,9 +803,7 @@ footer {
   html {
     font-size: 14px;
   }
-  .logo {
-    width: 8%;
-  }
+
   .nav-menu-div {
     width: 40%;
     top: 73px;
@@ -839,8 +837,8 @@ footer {
   }
 
   .hero-titles h3,
-  h1,
-  p {
+  .hero-titles h1,
+  .hero-titles p {
     text-align: center;
   }
 
