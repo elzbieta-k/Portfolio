@@ -34,6 +34,9 @@ export const translations = {
     project_title_four: "Craftsvilla",
     project_desc_four:
       "Craftsvilla Oppgave is a visually engaging static website for a creative workshop business, featuring a gallery, booking system, and customer feedback. The project highlights responsive design, custom styling, and showcases curated Unsplash photography to inspire visitors.",
+    project_title_five: "SQL project",
+    project_desc_five:
+      "The project analyzes housing data from Stavanger by importing and cleaning raw data in SQL Server. Cleaned tables are created for apartments and sales. Various SQL analyses are performed to show price trends, building types, and geographical differences. The results provide insights into key trends in the housing market.",
     project_tech: "build with:",
     contact_footer: "Contact:",
     copyright: "Design & Build by Elzbieta Kukulka",
@@ -73,6 +76,9 @@ export const translations = {
     project_title_four: "Craftsvilla",
     project_desc_four:
       "Craftsvilla Oppgave er et visuelt engasjerende statisk nettsted for en kreativ verkstedsbedrift, med galleri, bookingsystem og kundetilbakemeldinger. Prosjektet fremhever responsivt design, tilpasset styling og viser frem kuratert fotografering fra Unsplash for å inspirere besøkende.",
+    project_title_five: "SQL project",
+    project_desc_five:
+      "Prosjektet analyserer boligdata fra Stavanger ved å importere og rense rådata i SQL Server. Rensede tabeller opprettes for leiligheter og salg. Det utføres ulike SQL-analyser for å vise prisutvikling, bygningstyper og geografiske forskjeller. Resultatene gir innsikt i sentrale trender i boligmarkedet.",
     project_tech: "laget med:",
     contact_footer: "kontakt:",
     copyright: "Designet & Utviklet av Elzbieta Kukulka",
@@ -112,6 +118,9 @@ export const translations = {
     project_title_four: "Craftsvilla",
     project_desc_four:
       "Craftsvilla Oppgave to wizualnie atrakcyjna statyczna strona internetowa dla firmy prowadzącej kreatywne warsztaty, zawierająca galerię, system rezerwacji oraz opinie klientów. Projekt podkreśla responsywny design, niestandardowe style i prezentuje wyselekcjonowaną fotografię z Unsplash, aby inspirować odwiedzających.",
+    project_title_five: "SQL project",
+    project_desc_five:
+      "Projekt analizuje dane dotyczące nieruchomości w Stavanger poprzez importowanie i czyszczenie danych źródłowych w SQL Server. Tworzone są oczyszczone tabele dla mieszkań i sprzedaży. Wykonywane są różne analizy SQL, aby pokazać trendy cenowe, typy budynków oraz różnice geograficzne. Wyniki dostarczają wglądu w kluczowe trendy na rynku mieszkaniowym.",
     project_tech: "zrobione w:",
     contact_footer: "kontakt:",
     copyright: "Zaprojektowane & Stworzone przez Elżbieta Kukułka",
