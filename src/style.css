@@ -81,7 +81,7 @@ nav {
 }
 
 .logo {
-  width: 30vw;
+  width: 35vw;
 }
 
 nav h1 {
@@ -113,7 +113,7 @@ li a:hover,
 }
 
 .nav-menu-div {
-  width: 70vw;
+  width: 65vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -185,7 +185,7 @@ header {
   }
 }
 .hero-div {
-  max-width: 70%;
+  width: min(70vw, 1200px);
   height: 90vh;
   display: flex;
   flex-direction: row;
@@ -264,8 +264,8 @@ header {
 }
 
 #hero-image img {
-  width: clamp(290px, 40vw, 379px);
-  height: clamp(350px, 50vw, 477px);
+  width: clamp(290px, 30vw, 455px);
+  height: clamp(350px, 40vw, 555px);
   object-fit: cover;
   object-position: center;
 }
@@ -289,7 +289,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 63px;
-  max-width: 70vw;
+  width: min(70vw, 1200px);
   margin: 0 auto;
   padding: 15vh 0;
   opacity: 1;
@@ -356,7 +356,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0 auto 40px auto;
-  max-width: 70vw;
+  width: min(70vw, 1200px);
   padding: 5vh 0;
   gap: 26px;
   border-top: 1px solid var(--secondary-color);
@@ -430,7 +430,7 @@ header {
 .project-card {
   opacity: 1;
   transform: translateX(0);
-  width: 70vw;
+  width: min(70vw, 1200px);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -613,7 +613,7 @@ footer {
 }
 
 .contact-container {
-  max-width: 70vw;
+  width: min(70vw, 1200px);
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -689,24 +689,6 @@ footer {
 }
 
 /* -------------------MEDIA QUERIES ------------------ */
-@media screen and (min-width: 1600px) {
-  .logo {
-    width: 40%;
-  }
-
-  .hero-div,
-  .about-me-desc,
-  .my-skills-div,
-  .project-card,
-  .contact-container {
-    max-width: 1200px;
-  }
-
-  #hero-image img {
-    height: 555px;
-    width: 455px;
-  }
-}
 
 /* ----------------------------- */
 @media (max-width: 1250px) {
