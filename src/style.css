@@ -185,7 +185,7 @@ header {
   }
 }
 .hero-div {
-  width: min(70vw, 1200px);
+  width: min(75vw, 1200px);
   height: 90vh;
   display: flex;
   flex-direction: row;
@@ -289,7 +289,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 63px;
-  width: min(70vw, 1200px);
+  width: min(75vw, 1200px);
   margin: 0 auto;
   padding: 15vh 0;
   opacity: 1;
@@ -356,7 +356,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0 auto 40px auto;
-  width: min(70vw, 1200px);
+  width: min(75vw, 1200px);
   padding: 5vh 0;
   gap: 26px;
   border-top: 1px solid var(--secondary-color);
@@ -430,7 +430,7 @@ header {
 .project-card {
   opacity: 1;
   transform: translateX(0);
-  width: min(70vw, 1200px);
+  width: min(75vw, 1200px);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -714,16 +714,6 @@ footer {
     font-size: 15px;
   }
 
-  .project-card {
-    width: 80vw;
-  }
-  .hero-div,
-  #about-me,
-  .my-skills-div,
-  .contact-container {
-    max-width: 80vw;
-  }
-
   .hamburger {
     display: flex;
   }
@@ -791,11 +781,6 @@ footer {
     width: 40%;
   }
 
-  #about-me,
-  .my-skills-div {
-    max-width: 70vw;
-  }
-
   #about-me {
     padding: 25px 0;
   }
@@ -830,7 +815,6 @@ footer {
     gap: 10px;
     padding: 20px 10px;
     background-color: var(--white-color);
-    width: 70vw;
     border-right: 2px solid var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
     border-radius: 5px;
