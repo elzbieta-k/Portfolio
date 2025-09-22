@@ -752,9 +752,10 @@ footer {
     align-items: flex-end;
     gap: 10px;
     position: absolute;
-    top: 85px;
+    top: 110px;
     right: 0;
     padding-right: 10px;
+    padding-top: 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease;
@@ -806,7 +807,6 @@ footer {
 
   .nav-menu-div {
     width: 40%;
-    top: 73px;
   }
 
   #about-me,
