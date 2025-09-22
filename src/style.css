@@ -264,8 +264,8 @@ header {
 }
 
 #hero-image img {
-  width: clamp(290px, 30vw, 455px);
-  height: clamp(350px, 40vw, 555px);
+  width: clamp(290px, 30vw, 424px);
+  height: clamp(350px, 40vw, 505px);
   object-fit: cover;
   object-position: center;
 }
