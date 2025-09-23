@@ -12,7 +12,7 @@ export const translations = {
     pitch_one:
       "My name is Elzbieta, and I am passionate about learning and developing myself — that’s exactly why I fell in love with frontend development. Being able to create something from an idea to a finished website, while working in a field that iands constantly evolving, motivates me every day.",
     course_intro: "Through a six-month course, I have learned",
-    and_figma: "og",
+    and_figma: "and",
     course_outro:
       "In addition, I have further education as a data analyst, where I gained insight into data management, analysis, and reporting. This combination allows me to work both creatively with design and development, and analytically with data and insights. I am therefore open to roles in both frontend development and data analysis.",
     pitch_three:
@@ -33,7 +33,7 @@ export const translations = {
     project_title_third: "Met Museum Digital Gallery",
     project_title_four: "Craftsvilla",
     project_desc_four:
-      "Craftsvilla Oppgave is a visually engaging static website for a creative workshop business, featuring a gallery, booking system, and customer feedback. The project highlights responsive design, custom styling, and showcases curated Unsplash photography to inspire visitors.",
+      "Craftsvilla is a visually engaging static website for a creative workshop business, featuring a gallery, booking system, and customer feedback. The project highlights responsive design, customized styling, and uses images from Unsplash to inspire visitors.",
     project_title_five: "SQL project",
     project_desc_five:
       "The project analyzes housing data from Stavanger by importing and cleaning raw data in SQL Server. Cleaned tables are created for apartments and sales. Various SQL analyses are performed to show price trends, building types, and geographical differences. The results provide insights into key trends in the housing market.",
@@ -75,7 +75,7 @@ export const translations = {
     project_title_third: "Met Museum Digital Gallery",
     project_title_four: "Craftsvilla",
     project_desc_four:
-      "Craftsvilla Oppgave er et visuelt engasjerende statisk nettsted for en kreativ verkstedsbedrift, med galleri, bookingsystem og kundetilbakemeldinger. Prosjektet fremhever responsivt design, tilpasset styling og viser frem kuratert fotografering fra Unsplash for å inspirere besøkende.",
+      "Craftsvilla er et visuelt engasjerende statisk nettsted for en kreativ verkstedsbedrift, med galleri, bookingsystem og kundetilbakemeldinger. Prosjektet fremhever responsivt design, tilpasset styling og bruker bilder fra Unsplash for å inspirere besøkende.",
     project_title_five: "SQL project",
     project_desc_five:
       "Prosjektet analyserer boligdata fra Stavanger ved å importere og rense rådata i SQL Server. Rensede tabeller opprettes for leiligheter og salg. Det utføres ulike SQL-analyser for å vise prisutvikling, bygningstyper og geografiske forskjeller. Resultatene gir innsikt i sentrale trender i boligmarkedet.",
@@ -117,7 +117,7 @@ export const translations = {
     project_title_third: "Cyfrowa Galeria Muzeum Met",
     project_title_four: "Craftsvilla",
     project_desc_four:
-      "Craftsvilla Oppgave to wizualnie atrakcyjna statyczna strona internetowa dla firmy prowadzącej kreatywne warsztaty, zawierająca galerię, system rezerwacji oraz opinie klientów. Projekt podkreśla responsywny design, niestandardowe style i prezentuje wyselekcjonowaną fotografię z Unsplash, aby inspirować odwiedzających.",
+      "Craftsvilla to wizualnie atrakcyjna statyczna strona internetowa dla kreatywnej pracowni, z galerią, systemem rezerwacji i opiniami klientów. Projekt podkreśla responsywny design, dostosowany styl oraz wykorzystuje zdjęcia z Unsplash, aby inspirować odwiedzających.",
     project_title_five: "SQL project",
     project_desc_five:
       "Projekt analizuje dane dotyczące nieruchomości w Stavanger poprzez importowanie i czyszczenie danych źródłowych w SQL Server. Tworzone są oczyszczone tabele dla mieszkań i sprzedaży. Wykonywane są różne analizy SQL, aby pokazać trendy cenowe, typy budynków oraz różnice geograficzne. Wyniki dostarczają wglądu w kluczowe trendy na rynku mieszkaniowym.",
