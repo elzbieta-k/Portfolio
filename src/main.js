@@ -17,12 +17,17 @@ themeBtn.addEventListener("click", toggleTheme);
 let currentLang = localStorage.getItem("lang") || "no";
 
 document.querySelector(".nav-menu-div").addEventListener("click", (e) => {
-  if (e.target.tagName === "A") toggleMenu();
+  if (e.target.tagName === "A" || e.target.closest("button")) toggleMenu();
 });
+
 document.querySelectorAll("[data-lang]").forEach((btn) => {
   btn.addEventListener("click", (e) => {
     currentLang = e.target.dataset.lang;
     localStorage.setItem("lang", currentLang);
     updateText(currentLang);
   });
+});
+
+document.querySelector(".language-mode-div").addEventListener("click", (e) => {
+  if (e.target.tagName === "A") toggleMenu();
 });
