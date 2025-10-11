@@ -22,6 +22,9 @@ export const translations = {
     skills: "My skills",
     projects: "My projects",
     explore: "Explore my work",
+    project_desc_zero:
+      "A React app that lets users search for books from the Gutendex API, save them to a personal reading list, and rate them once finished. The app uses React Router, Context API, and Local Storage for a smooth and persistent experience.",
+    project_title_zero: "Bookify",
     project_desc_first:
       "Designed a modern, user-friendly e-commerce website in Figma for a furniture brand, focusing on clean layout, intuitive navigation, and a cozy, Scandinavian-inspired aesthetic. The project highlights both visual design and UX considerations to create a seamless shopping experience.",
     project_title_first: "The Sit Spot",
@@ -64,6 +67,9 @@ export const translations = {
     skills: "Mine ferdigheter",
     projects: "mine prosjekter",
     explore: "utforsk mitt arbeid",
+    project_desc_zero:
+      "En React-app som lar brukere søke etter bøker fra Gutendex API, lagre dem i en personlig leseliste og gi vurderinger når bøkene er ferdiglest. Appen bruker React Router, Context API og Local Storage for en smidig og lagringsvennlig opplevelse.",
+    project_title_zero: "Bookify",
     project_desc_first:
       "Designet en moderne, brukervennlig nettbutikk i Figma for et møbelmerke, med fokus på rent design, intuitiv navigasjon og en koselig, skandinavisk-inspirert estetikk. Prosjektet fremhever både visuelt design og brukeropplevelse for å skape en sømløs handleopplevelse.",
     project_title_first: "The Sit Spot",
@@ -106,6 +112,9 @@ export const translations = {
     skills: "Moje umiejętności",
     projects: "moje projekty",
     explore: "poznaj moje prace",
+    project_desc_zero:
+      "Aplikacja React, która umożliwia wyszukiwanie książek z Gutendex API, zapisywanie ich na osobistej liście do przeczytania oraz ocenianie po zakończeniu lektury. Wykorzystuje React Router, Context API i Local Storage, zapewniając płynne działanie i zapamiętywanie danych.",
+    project_title_zero: "Bookify",
     project_desc_first:
       "Zaprojektowałam nowoczesny, przyjazny dla użytkownika sklep internetowy w Figma dla marki meblowej, koncentrując się na przejrzystym układzie, intuicyjnej nawigacji i przytulnej, skandynawskiej estetyce. Projekt podkreśla zarówno aspekty wizualne, jak i UX, aby stworzyć spójne doświadczenie zakupowe.",
     project_title_first: "The Sit Spot",
