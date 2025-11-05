@@ -22,6 +22,9 @@ export const translations = {
     skills: "My skills",
     projects: "My projects",
     explore: "Explore my work",
+    project_desc_zeroone:
+      "An upgraded version of my previous quiz built with vanilla JavaScript. Developed with React, Tailwind CSS, Zustand, and Local Storage. The app fetches questions from an API, displays real-time results, and saves scores on an interactive Scoreboard grouped by difficulty level.",
+    project_title_zeroone: "Trivia Quiz",
     project_desc_zero:
       "A React app that lets users search for books from the Gutendex API, save them to a personal reading list, and rate them once finished. The app uses React Router, Context API, and Local Storage for a smooth and persistent experience.",
     project_title_zero: "Bookify",
@@ -67,6 +70,9 @@ export const translations = {
     skills: "Mine ferdigheter",
     projects: "mine prosjekter",
     explore: "utforsk mitt arbeid",
+    project_desc_zeroone:
+      "En oppgradert versjon av min tidligere quiz laget i vanilla JavaScript. Bygget i React med Tailwind CSS, Zustand og Local Storage. Appen henter spørsmål fra en API, viser resultater i sanntid og lagrer poengsummene på et interaktivt Scoreboard gruppert etter vanskelighetsgrad.",
+    project_title_zeroone: "Trivia Quiz",
     project_desc_zero:
       "En React-app som lar brukere søke etter bøker fra Gutendex API, lagre dem i en personlig leseliste og gi vurderinger når bøkene er ferdiglest. Appen bruker React Router, Context API og Local Storage for en smidig og lagringsvennlig opplevelse.",
     project_title_zero: "Bookify",
@@ -112,6 +118,9 @@ export const translations = {
     skills: "Moje umiejętności",
     projects: "moje projekty",
     explore: "poznaj moje prace",
+    project_desc_zeroone:
+      "Ulepszona wersja mojego wcześniejszego quizu stworzonego w vanilla JavaScript. Aplikacja została zbudowana w React z użyciem Tailwind CSS, Zustand i Local Storage. Pobiera pytania z API, wyświetla wyniki w czasie rzeczywistym i zapisuje rezultaty na interaktywnej tablicy wyników pogrupowanej według poziomu trudności.",
+    project_title_zeroone: "Trivia Quiz",
     project_desc_zero:
       "Aplikacja React, która umożliwia wyszukiwanie książek z Gutendex API, zapisywanie ich na osobistej liście do przeczytania oraz ocenianie po zakończeniu lektury. Wykorzystuje React Router, Context API i Local Storage, zapewniając płynne działanie i zapamiętywanie danych.",
     project_title_zero: "Bookify",
